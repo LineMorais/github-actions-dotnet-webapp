@@ -26,7 +26,7 @@ jobs:
       - name: Instalar .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.x'  # Altere para a versão usada no seu projeto
+          dotnet-version: '8.0.407'  # Altere para a versão usada no seu projeto
 
       - name: Restaurar dependências
         run: dotnet restore
